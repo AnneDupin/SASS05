@@ -1,0 +1,14 @@
+/* Variable */
+$salmon : #FF7E6B;
+$rosetaupe: #8C5E58;
+
+p {
+  font-weight: bold;
+  color: $rosetaupe;
+
+  &:hover {
+    font-weight: lighter;
+    color: $salmon;
+    text-align: underline $salmon;
+  }
+}
